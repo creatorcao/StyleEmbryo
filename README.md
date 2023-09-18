@@ -6,15 +6,15 @@ The pre-trained weights from this study are at [here](https://drive.google.com/d
 training example
 ```
 python train.py --outdir=./output_gan --data=./embryoGAN256.zip --cfg=stylegan3-t --gpus=4 --batch=32 --gamma=2 \
---freezed=13 --workers=2 --mirror=1 --kimg=5000 --tick=2 --snap=50 --metrics=none --cbase=16384 \
---network=./weights/network-snapshot-025000.pkl
+    --freezed=13 --workers=2 --mirror=1 --kimg=5000 --tick=2 --snap=50 --metrics=none --cbase=16384 \
+    --network=./weights/network-snapshot-025000.pkl
 
 ```
 
 generate image 
 ```
 python gen_images.py --outdir=./data/25000 --trunc=1 --seeds=100 \
-#    --network=./weights/network-snapshot-025000.pkl
+    --network=./weights/network-snapshot-025000.pkl
 ```
 
 calculate metrics
