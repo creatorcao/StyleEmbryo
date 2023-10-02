@@ -6,9 +6,6 @@
 # distribution of this software and related documentation without an express
 # license agreement from NVIDIA CORPORATION is strictly prohibited.
 
-"""Train a GAN using the techniques described in the paper
-"Alias-Free Generative Adversarial Networks"."""
-
 import os
 import click
 import re
