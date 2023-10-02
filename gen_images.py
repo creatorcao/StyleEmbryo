@@ -6,8 +6,6 @@
 # distribution of this software and related documentation without an express
 # license agreement from NVIDIA CORPORATION is strictly prohibited.
 
-"""Generate images using pretrained network pickle."""
-
 import os
 import re
 from typing import List, Optional, Tuple, Union
