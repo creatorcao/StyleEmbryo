@@ -3,6 +3,12 @@
 The training data is available at [here](https://drive.google.com/file/d/1oFrAzSIjW3pbjEhSWswRTIEEb_sqJatT/view?usp=sharing).
 The pretrained weights from this study are at [here](https://drive.google.com/drive/folders/1kegtpN3VaC5-irWP6F58qrK9KJrzkbp-?usp=sharing).
 
+#### Requirements
+```
+conda env create -f environment.yml
+conda activate stylegan3
+```
+
 #### Training 
 1. Baseline model
 ```
@@ -38,7 +44,7 @@ python train.py --outdir=./output_gan --data=./embryoGAN256.zip --cfg=stylegan3-
 ```
 python train.py --outdir=./output_gan --data=./embryoGAN256.zip --cfg=stylegan3-r --gpus=4 --batch=32 --gamma=2 \
 --freezed=13 --workers=2 --mirror=1 --kimg=5000 --tick=2 --snap=50 --metrics=none --cbase=16384 \
---network=./weights/stylegan3-t-ffhqu-256x256.pkl
+--network=./weights/stylegan3-r-ffhqu-256x256.pkl
 ```
 
 #### Generating image 
