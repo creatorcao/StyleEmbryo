@@ -3,7 +3,11 @@
 The training data is available at [here](https://drive.google.com/file/d/1oFrAzSIjW3pbjEhSWswRTIEEb_sqJatT/view?usp=sharing).
 The pretrained weights from this study are at [here](https://drive.google.com/drive/folders/1kegtpN3VaC5-irWP6F58qrK9KJrzkbp-?usp=sharing).
 
-#### Requirements
+#### Installation
+`git clone https://github.com/creatorcao/StyleEmbryo.git`
+
+`cd StyleEmbryo`
+
 ```
 conda env create -f environment.yml
 conda activate stylegan3
