@@ -54,7 +54,7 @@ python train.py --outdir=./output_gan --data=./embryoGAN256.zip --cfg=stylegan3-
 #### Generating image 
 
 ```
-python gen_images.py --outdir=./data/25000 --trunc=1 --seeds=100 \
+python gen_images.py --outdir=./images --trunc=1 --seeds=100 \
     --network=./weights/network-snapshot-025000.pkl
 ```
 
