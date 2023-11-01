@@ -4,9 +4,10 @@ The training data is available at [here](https://drive.google.com/file/d/1oFrAzS
 The pretrained weights from this study are at [here](https://drive.google.com/drive/folders/1kegtpN3VaC5-irWP6F58qrK9KJrzkbp-?usp=sharing).
 
 #### Installation
-`git clone https://github.com/creatorcao/StyleEmbryo.git`
-
-`cd StyleEmbryo`
+```
+git clone https://github.com/creatorcao/StyleEmbryo.git
+cd StyleEmbryo
+```
 
 ```
 conda env create -f environment.yml
