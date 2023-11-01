@@ -15,7 +15,7 @@ conda activate stylegan3
 ```
 
 #### Training 
-The training configuration doc can be found here [link](https://github.com/creatorcao/StyleEmbryo/blob/main/training/train_help.txt).
+The training configuration doc in this study can be found here [link](https://github.com/creatorcao/StyleEmbryo/blob/main/training/train_help.txt). For more configs see official stylegan3 repo [link](https://github.com/NVlabs/stylegan3/blob/main/docs/configs.md).
 1. Baseline model
 ```
 python train.py --outdir=./output_gan --data=./embryoGAN256.zip --cfg=stylegan3-t --aug=noaug --gpus=4 --batch=32 --gamma=2 \
