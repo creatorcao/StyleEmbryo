@@ -1,6 +1,7 @@
 # StyleEmbryo
 These are samples of generated human blastocyst images.
-![](https://github.com/creatorcao/StyleEmbryo/blob/main/images/samples.svg)
+
+<img src="images/samples.svg" width="800" height="650">
 
 This repository was created to provide the original implementation for the paper _"Generative Artificial Intelligence Models to Assist Embryo Selection"_.
 In this repository, you will find the code used for training. Here is a basic summary of the directories in this repository:
@@ -76,5 +77,7 @@ python gen_images.py --outdir=./images --trunc=1 --seeds=100 \
 python calc_metrics.py --metrics=fid50k_full,pr50k3_full,kid50k,is50k --data=./embryoGAN256.zip --mirror=1 --gpus=1 \
     --network=./weights/network-snapshot-025000.pkl
 ```
+To replicate the result plots, we provided a notebook tutorial. See [Colab notebook](https://github.com/creatorcao/StyleEmbryo/blob/main/figures.ipynb).
 
 # References
+- Alias-Free Generative Adversarial Networks. Tero Karras, Miika Aittala, Samuli Laine, Erik Härkönen, Janne Hellsten, Jaakko Lehtinen, Timo Aila. [https://nvlabs.github.io/stylegan3](https://nvlabs.github.io/stylegan3)
