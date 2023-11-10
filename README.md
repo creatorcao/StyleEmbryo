@@ -75,7 +75,7 @@ python gen_images.py --outdir=./images --trunc=1 --seeds=100 \
 
 # Calculating metrics
 ```
-python calc_metrics.py --metrics=fid50k_full,pr50k3_full,kid50k,is50k --data=./embryoGAN256.zip --mirror=1 --gpus=1 \
+python calc_metrics.py --metrics=fid50k_full,kid50k_full --data=./embryoGAN256.zip --mirror=1 --gpus=1 \
     --network=./weights/network-snapshot-025000.pkl
 ```
 To replicate the result plots, we provided a notebook tutorial. See [Colab notebook](https://github.com/creatorcao/StyleEmbryo/blob/main/figures.ipynb).
