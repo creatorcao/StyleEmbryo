@@ -1,6 +1,5 @@
 # StyleEmbryo
-These are samples of generated human blastocyst images. 
-We provide a generated image dataset for research use [link](https://drive.google.com/drive/folders/16gy31GX0mogtsdMIZENipdVy97X-GF4P?usp=drive_link).
+These are samples of generated human blastocyst images. A generated image dataset (n=5k) is only available for research use at [link](https://drive.google.com/drive/folders/16gy31GX0mogtsdMIZENipdVy97X-GF4P?usp=drive_link).
 
 <img src="images/samples.svg" width="800" height="650">
 
